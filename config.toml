@@ -1,0 +1,22 @@
+baseURL = "https://rgbg.github.io/"
+languageCode = "en-us"
+title = "Rajendra Gandhi Business Group"
+theme = "mango"
+publishDir = "docs"
+
+[params]
+company = "Rajendra Gandhi Business Group"
+
+[menu]
+
+[[menu.main]]
+name = "Experience"
+pre = "book-open"
+url = "/experience"
+weight = 1
+
+[[menu.main]]
+name = "Contact"
+pre = "phone"
+url = "/contact"
+weight = 2

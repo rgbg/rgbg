@@ -1,0 +1,12 @@
+name = "Mango"
+license = "Copyright 2020"
+licenselink = "https://github.com/rgbg/rgbg.github.io/blob/main/themes/mango/LICENSE"
+description = ""
+homepage = "https://rgbg.github.io/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Ashish Gandhi"
+  homepage = "http://ashishgandhi.org/"

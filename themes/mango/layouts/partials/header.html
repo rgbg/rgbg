@@ -1,0 +1,20 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" height="40" alt="{{ .Site.Params.Company }}">
+                    {{ .Site.Params.Company }}
+                </a>
+            </div>
+            <nav class="nav col justify-content-center">
+                {{ range .Site.Menus.main }}
+                <a class="nav-item nav-link" href="{{ .URL }}">
+                    <i data-feather="{{ .Pre }}"></i>
+                    {{ .Name }}
+                </a>
+                {{ end }}
+            </nav>
+        </div>
+    </div>
+</header>
