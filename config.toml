@@ -10,13 +10,13 @@ company = "Rajendra Gandhi Business Group"
 [menu]
 
 [[menu.main]]
-name = "Experience"
-pre = "book-open"
-url = "/experience"
+name = "Email"
+pre = "mail"
+url = "mailto:rajensgandhi@gmail.com"
 weight = 1
 
 [[menu.main]]
-name = "Contact"
-pre = "phone"
-url = "/contact"
+name = "WhatsApp"
+pre = "smartphone"
+url = "https://wa.me/919227260331"
 weight = 2
