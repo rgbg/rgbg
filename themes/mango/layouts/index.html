@@ -1,5 +1,52 @@
 {{ define "main" }}
-<div class="jumbotron text-center">
-	<h1 class="title">Welcome to {{ .Site.Title }}</h1>
+<div id="bio" class="row m-3 p-4">
+	<p class="col">
+		We are an upstart company with Rajendra Gandhi at its helm. He has over 39 years of experience with time
+		spent both in the industry as well as academia. He has worked with companies of all sizes ranging from
+		household names like Rasna, Vadilal, Dabur, Arvind, TGB as well as smaller companies. He has deep expertise
+		in FMCG goods, hospitality, textile, among other domains with a holistic focus including sales, marketing,
+		franchising, supply chain management, and growth. He has worked both nationally as well as internationally
+		in multiple markets including North America (US and Canada), Middle East (Dubai, UAE, Saudi Arabia), and
+		Africa. He has not only taken regional brands to national or international recognition like Vadilal, TGB
+		among others but also launched now well-recognized brands such as Real Juice, Ruf & Tuf, Homemade Pastes to
+		name a few. He has taught at IIM-A and held executive titles like Vice President and Business Head at
+		various companies.
+	</p>
+    <img src="images/biopic.jpg" class="col" alt="Rajendra Gandhi">
+</div>
+
+<div id="brands-carousel" class="carousel slide text-center" data-bs-ride="carousel">
+	<div class="carousel-indicators">
+		<button type="button" data-bs-target="#brands-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Rasna"></button>
+		<button type="button" data-bs-target="#brands-carousel" data-bs-slide-to="1" aria-label="Vadilal"></button>
+		<button type="button" data-bs-target="#brands-carousel" data-bs-slide-to="2" aria-label="Dabur"></button>
+		<button type="button" data-bs-target="#brands-carousel" data-bs-slide-to="3" aria-label="Arvind"></button>
+		<button type="button" data-bs-target="#brands-carousel" data-bs-slide-to="4" aria-label="TGB"></button>
+	</div>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="images/brands/rasna.png" class="brand-image" alt="Rasna">
+		</div>
+		<div class="carousel-item">
+			<img src="images/brands/vadilal.png" class="brand-image" alt="Vadilal">
+		</div>
+		<div class="carousel-item">
+			<img src="images/brands/dabur.png" class="brand-image" alt="Dabur">
+		</div>
+		<div class="carousel-item">
+			<img src="images/brands/arvind.png" class="brand-image" alt="Arvind">
+		</div>
+		<div class="carousel-item">
+			<img src="images/brands/tgb.png" class="brand-image" alt="TGB">
+		</div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#brands-carousel" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#brands-carousel" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	</button>
 </div>
 {{ end }}

@@ -1,5 +1,12 @@
 <p class="footer text-center">Copyright (c) <script>document.write(new Date().getFullYear())</script> Rajendra Gandhi Business Group</p>
+<script src="/js/jquery.min.js"></script>
 <script src="/js/feather.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <script>
-    feather.replace()
+    window.onload = function() {
+        feather.replace();
+        $('.carousel').carousel({
+            interval: 1000
+        });
+    }
 </script>
