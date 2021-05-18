@@ -1,15 +1,15 @@
 body {
-    background: rgba(100, 140, 185, 0.85);
-    color: whitesmoke;
+    background: whitesmoke;
+    color: grey;
 }
 
 #navbar{
     border-radius: 10px;
-    background: rgba(250, 240, 150, 1);
+    background: rgb(150, 225, 255);
 }
 
 #navbar a {
-    color: rgba(45, 85, 125, 0.85);
+    color: rgb(45, 85, 125);
 }
 
 #bio img {
@@ -20,13 +20,9 @@ body {
 }
 
 #brands-carousel {
-    height: 250px;
-    width: 400px;
     margin: auto;
 }
 
 .brand-image {
     padding: 20px;
-    height: 200px;
-    width: 350px;
 }
